@@ -1,0 +1,36 @@
+# MATLAB autosave and backup files
+*.asv
+*.m~
+
+# ------------------------------------------------------------------------------------------
+# Genetic algorithm target images that may be under third-party copyright.
+# They stay on disk locally but are not published.
+# Kept in the repo: flags, simple shapes and public-domain artworks (Mona Lisa, Van Gogh, Mondrian).
+# ------------------------------------------------------------------------------------------
+GeneticAlgorithms/Pic/Boba.JPG
+GeneticAlgorithms/Pic/CoNi.JPG
+GeneticAlgorithms/Pic/CoNi2.JPG
+GeneticAlgorithms/Pic/Copy.jpg
+GeneticAlgorithms/Pic/Dwarf.jpg
+GeneticAlgorithms/Pic/Elden.jpg
+GeneticAlgorithms/Pic/KavousVesal.jpg
+GeneticAlgorithms/Pic/Knight.jpg
+GeneticAlgorithms/Pic/Park.JPG
+GeneticAlgorithms/Pic/PixelArt.png
+GeneticAlgorithms/Pic/Rasta.jpg
+GeneticAlgorithms/Pic/Ring.jpg
+GeneticAlgorithms/Pic/Sand.JPG
+GeneticAlgorithms/Pic/Vio.JPG
+GeneticAlgorithms/Pic/VioDark.JPG
+
+# ------------------------------------------------------------------------------------------
+# Rendered genetic algorithm videos: most are reconstructions of the images above (derived works),
+# and YTVIDEO.mp4 (422 MB) exceeds GitHub's 100 MB file limit.
+# Only the reconstructions of public-domain paintings are kept.
+# ------------------------------------------------------------------------------------------
+GeneticAlgorithms/LeonardosWork/*.mp4
+GeneticAlgorithms/LeonardosWork/*.mj2
+!GeneticAlgorithms/LeonardosWork/MonaLisa6.mp4
+!GeneticAlgorithms/LeonardosWork/MonaLisaMP4.mp4
+!GeneticAlgorithms/LeonardosWork/vangoth16000.mp4
+GeneticAlgorithms/teste.mp4
